@@ -1,0 +1,19 @@
+{
+  "name": "new-branch",
+  "version": "1.0.0",
+  "description": "Create a new branch base on a jira URL or for a jira card",
+  "main": "nb.js",
+  "scripts": {
+    "start": "node nb.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santiago Bandiera",
+  "license": "ISC",
+  "dependencies": {
+    "just-kebab-case": "^4.1.1",
+    "prompts": "^2.4.2"
+  },
+  "bin": {
+    "nb": "nb.js"
+  }
+}
